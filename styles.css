@@ -1,0 +1,143 @@
+/* ------------------------------------------
+** LES SPECIFICATIONS GENERALES 
+** ------------------------------------------
+*/
+    body {
+        font-family: trebucher MS;
+        font-size: 1.3em;
+        color: #666;
+
+        background: #000 url('media/fond3.jpg') repeat;
+        padding: 30px;
+    }
+    
+    #main-principal img {
+            border: #666 1px solid;
+    }
+    #inscription-newsletter input {
+        width: 150px;
+        box-sizing: border-box;
+    }
+
+/* ------------------------------------------
+** LES ETIQUETTES PONCTUELLES RE-UTILISABLES 
+** ------------------------------------------
+*/
+    /* Annulation des marges */
+        .marge-ext-0 {
+            margin: 0;
+        }
+        .marge-int-0{
+            padding: 0;
+        }
+        
+    /* Tailles des textes */
+        .texte-petit {
+            font-size: 0.7em;
+        }
+        .texte-grand {
+            font-size: 3em;
+        }
+        
+    /* La couleur des textes */
+        .texte-couleur-principale {
+            color: #000099;
+        }
+        
+    /* L'alignement des contenus inline */
+        .contenu-centre {
+            text-align: center;
+        }
+        .contenu-droite {
+            text-align: right;
+        }
+        
+    /* L'alignement des boites */
+        .boite-centree {
+            text-align: center;
+        }
+        .boite-droite {
+            float: right;
+            margin: 0 0 0 4%;
+        }
+        .boite-gauche {
+            float: left;
+            margin: 0 4% 0 0;
+        }
+        
+    /* Type de boites */
+        .boite-encadree {
+            padding: 4%;
+            border: #666 1px solid;
+        }
+    /* Largeurs de boites */
+        .boite-petite {
+            width: 200px;
+        }
+        
+    /* Clears */
+        .clear-force:after {
+            content: ' ';
+            display: block;
+            clear: both;
+            visibility: hidden;
+        }
+    
+/* ------------------------------------------
+** LES ETIQUETTES GLOBALES RE-UTILISABLES 
+** ------------------------------------------
+*/
+    /* Les listes horizontales */
+        .liste-horiz>ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .liste-horiz li {
+            display: inline-block;
+        }
+        
+
+
+/* ------------------------------------------
+** LES BOITES PRINCIPALES 
+** ------------------------------------------
+*/
+    /* La section principale */
+        #section-principale {
+            width: 800px;
+            margin: auto;
+            background: #fff;
+            border: #000 10px solid;
+            padding: 30px;
+        }
+
+    /* Le menu principal */
+        #menu-principal {
+            margin: 30px 0 30px 0;
+        }
+        #menu-principal a {
+            color: #fc0;
+            display: block;
+            padding: 10px;
+            background: #ff6600;
+            text-decoration: none;
+        }
+        #menu-principal a:hover, #menu-principal a.actif{
+            background:#cc3300;
+            color: #fff;
+        }
+        
+    /* Le contenu principal */
+        #main-principal {
+            margin: 0 0 30px 0;
+            width: 60%
+        }
+        
+        /* Le aside principal */
+        #aside-principal {
+            margin-left: 66%;
+            padding-top: 10px;
+            padding-left: 20px;
+            border-left: #555 1px dotted;
+        }
