@@ -1,2 +1,2 @@
 # phpProcedural
-php procédural vu au vours de script serveur
+php procédural vu au cours de script serveur
